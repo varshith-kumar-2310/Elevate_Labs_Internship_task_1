@@ -1,5 +1,4 @@
-# Java Expression Calculator
-
+# Basic Java Calculator (Arithmetic Expression calculator)
 A command-line calculator in Java that takes a space-separated arithmetic expression (in infix format) and evaluates it after converting it to postfix notation.
 
 ## 🚀 Features
