@@ -53,9 +53,12 @@ Example: 2+4*3-1 **space not included**
    ```bash
    javac Claculator.java
 you can also open and run the downloaded java file in code editors like vs code.
-**SAMPLE OUTPUT**
+
+### SAMPLE OUTPUT 
 enter your expression with space separated by each number and operator 
 eg: 2 + 45 / 56 * 21 :
 2 + 3 * 4
 ANS: 14.0
+### resources referred
+https://www.geeksforgeeks.org/dsa/convert-infix-expression-to-postfix-expression/
 
