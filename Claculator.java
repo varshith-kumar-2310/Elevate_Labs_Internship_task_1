@@ -53,7 +53,6 @@ class Claculator
                 }
                 else if(precedence(s)==0)
                 {
-                    System.out.println(s);
                     return "INVALID_EXPRESSION";
                 }
             }
@@ -126,7 +125,6 @@ class Claculator
         String str = input.nextLine();
         String[] tokens = str.split(" ");
         String postfix = infixToPostfix(tokens);
-        System.out.println(postfix);
         if(postfix.equals("INVALID_EXPRESSION"))
         {
             System.out.println("INVALID_EXPRESSION");
@@ -135,5 +133,6 @@ class Claculator
         double ans = evaluatePostfix(postfix);
         System.out.println("ANS: "+ans); 
     }
+
 
 }
